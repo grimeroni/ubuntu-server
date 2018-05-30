@@ -1,31 +1,29 @@
-# Unattended Ubuntu ISO Maker
 
-This simple script will create an unattended Ubuntu ISO from start to finish. It will ask you a few questions once, and embed your answers into a remastered ISO file for you to use over and over again.
 
-This script creates a 100% original Ubuntu installation; no additional software is added (aside from the VMWare OSP Tools, which are optional), not even an ```apt-get update``` is performed. You have all the freedom in the world to customize your Ubuntu installation whichever way you see fit. This script just takes the pain out of re-installing Ubuntu over and over again.
 
-Consider using tools like chef or puppet to perform any additional software installations/configurations. 
+ git clone https://github.com/grimeroni/ubuntu-server.git
+cd ubuntu-server
+chmod +x create-unattended-iso.sh
+sudo ./create-unattended-iso.sh
 
-Original created by: **Rinck Sonnenberg (Netson)**
 
-## Compatibility
 
-The script supports the following Ubuntu editions out of the box:
 
-* Ubuntu 16.04 Server LTS amd64 - Xenial Xerus
 
-Script automatically chooses the latest current image by parsing http://releases.ubuntu.com page.
 
-This script has been tested on and with these three versions as well, but I see no reason why it shouldn't work with other Ubuntu editions. Other editions would require minor changes to the script though.
 
-## Usage
 
-* From your command line, run the following commands:
 
-```
-$ wget https://github.com/englert/ubuntu-iso/master/ubuntu-iso.sh
-$ chmod +x create-unattended-iso.sh
-$ sudo ./create-unattended-iso.sh
+
+
+
+
+
+
+
+
+
+
 
  +---------------------------------------------------+
  |            UNATTENDED UBUNTU ISO MAKER            |
