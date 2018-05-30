@@ -2,20 +2,12 @@
 
 
  git clone https://github.com/grimeroni/ubuntu-server.git
+ 
 cd ubuntu-server
+
 chmod +x create-unattended-iso.sh
+
 sudo ./create-unattended-iso.sh
-
-
-
-
-
-
-
-
-
-
-
 
 
 
